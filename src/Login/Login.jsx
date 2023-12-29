@@ -8,6 +8,10 @@ function LoginPage() {
           <div id="logo">
             <img src="assets/img/logo1.png" alt="TBS Textiles"/>
           </div>
+          <div class="text">
+            <h1>Welcome again!</h1>
+            <p>Please enter your details</p>
+          </div>
             <form action="" id="login">
               <div class="input-field">
                 <input type="text" name="user" maxLength={16} required placeholder="User ID" />
