@@ -60,7 +60,7 @@ h1 {
     text-align: center;
 }
 
-.container {
+.r-container {
     top: 40px;
     position: relative;
     width: 100%;
@@ -72,7 +72,7 @@ h1 {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container form {
+.r-container form {
     width: 100%;
     position: relative;
     margin-top: 50px;
@@ -114,7 +114,7 @@ h1 {
     box-shadow: inset 0px 0px 1px 1px #eb8c10;
 }
 
-.btn1{
+.r-btn1{
         margin-top: 15px;
         color: #151515;
         font-size: 16px;
@@ -130,19 +130,19 @@ h1 {
         
     }
     
-    .btn1:hover {
+    .r-btn1:hover {
         background: none;
         border: 2px solid #eb8c10;
         color: #eb8c10;
     }
 
-    .btn{
+    .r-btn{
         display: flex;
         width: 100%;
         justify-content: space-around;
     }
 
-    .pdf input{
+    .r-pdf input{
         display:none;
         appearance: none;
      
