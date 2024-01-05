@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eb8c10;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+}
+.logo img {
+    width: 160px;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #eb8c10;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #151515;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition: .5s ease;
+    margin-right: 30px;
+}
+
+.navbar a:hover {
+    background: transparent;
+    color: #eb8c10;
+    border-color: #eb8c10;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    top: 40px;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 6px;
+    padding: 40px;
+    margin: 0 20px;
+    background-color: #d51010;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container form {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    background-color: #631f1f;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 100px;
+}
+
+.inputfield {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding-inline: 10px;
+    
+}
+
+.inputfield label {
+    width: 100%;
+    color: #757575;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.inputfield input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.inputfield input:focus {
+    border-color: #eb8c10;
+    box-shadow: inset 0px 0px 1px 1px #eb8c10;
+}
+
+.btn1{
+        margin-top: 15px;
+        color: #151515;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px 10px;
+        background: #eb8c10;
+        border: 2px solid #eb8c10;
+        cursor: pointer;
+        width: 40%;
+        border-radius: 0 0 5px 5px;
+        transition: .5s ease;
+        font-weight: 600;
+        
+    }
+    
+    .btn1:hover {
+        background: none;
+        border: 2px solid #eb8c10;
+        color: #eb8c10;
+    }
+
+    .btn{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .pdf input{
+        display:none;
+        appearance: none;
+     
+    }
+  
