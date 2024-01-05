@@ -13,11 +13,11 @@
 }
 
 .right{
-    /* width: 35%;
-    height: 85%; */
+    width: 30em;
+    /* height: 85%; */
     position: absolute;
-    left: 3%;
-    bottom: 3%;
+    left: 5%;
+    bottom: 10%;
 
     background: #fff;
     border-radius: 10px;
@@ -27,6 +27,15 @@
     align-items: center;
     /* justify-content: flex-end; */
 
+    padding: 2em 0;
+
+}
+
+.welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #logo{
@@ -45,6 +54,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    margin: 2em 0;
 }
 
 .text{
@@ -60,6 +71,7 @@
 }
 
 .input-field {
+    width:80% ;
     position: relative;
     border-bottom: 2px solid #ccc;
     margin: 2% 0;
@@ -70,38 +82,54 @@
     background: transparent;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: medium;
     color: #131212;
+}
+.input-field input::defined {
+    background-color: none;
 }
 
 .forget {
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
-    margin: 1% 0;
+    margin: 1% 0% 5% 0;
 }
 .forget a {
     color: #201e1e;
     text-decoration: none;
+    font-size: small;
 }
 .forget a:hover {
     text-decoration: underline;
 }
 
 button {
+    width: 80%;
     background: #131413;
     color: #fff;
     font-weight: 600;
     border: none;
-    padding: 12px 20px;
+    padding: 2% 0 ;
     cursor: pointer;
     border-radius: 50px;
-    font-size: 16px;
+    font-size: medium;
     border: 2px solid transparent;
     transition: 0.3s ease;
     margin-bottom: 2%;
 }
 button:hover {
     color: #171616;
-    background: rgba(111, 110, 110, 0.15);
+    background: rgba(60, 58, 58, 0.15);
 }
+
+
+/* Responsive */
+
+@media (max-height:580px){
+    .right{
+        flex-direction: row;
+        width: fit-content;
+    }
+}
+

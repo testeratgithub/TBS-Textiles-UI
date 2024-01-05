@@ -1,0 +1,27 @@
+#title{
+    border: 1px solid red;
+
+    height: 30%;
+
+    display: flex;
+    justify-content: end;
+    background-color: #ccc;
+}
+
+#title p{
+    
+
+    margin: 2em;
+
+    width: fit-content;
+    text-align: center;
+
+    font-size: 50px;
+    font-weight: 500px;
+    font-style: bold;
+}
+
+#bg-img{
+   display: flex;
+   justify-content: end;    
+}
